@@ -1,0 +1,128 @@
+body {
+  background-color: #42D6A2;
+}
+
+#container {
+  width: 100%;
+  display: inline-block;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #FEFFFD;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav ul {
+  text-align: left;
+  list-style-type: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+}
+nav ul #title {
+  color: #42D6A2;
+  font-family: "Montserrat";
+}
+nav ul #button_1 {
+  display: inline;
+  font-size: 15px;
+  font-family: "Montserrat";
+  float: right;
+  background-color: #42D6A2;
+  border-radius: 10px;
+  margin: -4% 2%;
+  padding: 10px;
+  color: #FEFFFD;
+  border: 0;
+}
+nav ul #button_2 {
+  display: inline;
+  font-size: 15px;
+  font-family: "Montserrat";
+  float: right;
+  background-color: #575B51;
+  border-radius: 10px;
+  margin: -4% 8%;
+  padding: 10px;
+  color: #FEFFFD;
+  border: 0;
+}
+nav ul #button_2 a {
+  float: right;
+}
+
+#texto1 {
+  color: #FEFFFD;
+  margin: -12% 9%;
+}
+
+#texto2 {
+  color: #FEFFFD;
+  margin: 12% 9%;
+}
+
+#texto3 {
+  color: #FEFFFD;
+  margin: -10% 9%;
+}
+
+#texto4 {
+  color: #FEFFFD;
+  margin: 10% 9%;
+}
+
+#button_3 {
+  margin: -4% 9%;
+  color: #FEFFFD;
+  background-color: #575B51;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.dropbtn {
+  background-color: #575B51;
+  color: white;
+  padding: 16px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  margin: 14% 50%;
+}
+.dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropbtn_2 {
+  background-color: #575B51;
+  color: white;
+  padding: 16px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  margin: 14% 55%;
+}
+.dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/*# sourceMappingURL=main.css.map */
